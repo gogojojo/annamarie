@@ -7,5 +7,7 @@ class ApplicationController < ActionController::Base
   end
   def steptwo
   end
+  def stepthree
+  end
 
 end
