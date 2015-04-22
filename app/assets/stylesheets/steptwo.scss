@@ -1,0 +1,27 @@
+.nav {
+	height: 100vh;
+	width: 16vw;
+	background-color: blue;
+	position: fixed;
+	top: 0;
+	left: 0;
+} 
+.maincontent {
+	margin-left: 16vw;
+	height: 100%;
+	width: 84vw;
+	background-color: black;
+}
+.opps {
+	width: 28vw;
+	height: 25vw;
+	float: left;
+	display: inline-block;
+}
+.opps:nth-child(odd) {
+    background: #ff0000;
+}
+
+.opps:nth-child(even) {
+    background: #0000ff;
+}
