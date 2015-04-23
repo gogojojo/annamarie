@@ -5,6 +5,18 @@
   position: fixed;
   top: 0px;
   left: 0px;
+  .navitems {
+    display: inline-block;
+    float: left;
+    height: 8vh;
+    line-height: 8vh;
+    width: 25vw;
+    box-sizing:border-box;
+    font-size: 20px;
+    border-left: 1px solid black;
+    border-right: 1px solid black; 
+    text-align: center;
+  }
 }
 .title {
   margin: 8vh 0px 0px;
