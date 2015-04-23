@@ -3,4 +3,8 @@ $(function(){
 		$('.nav').css('left','0');
 		$('.menu').css('left','-1000px')
 	});
+	$('.closemenu').click(function(){
+		$('.menu').css('left','0');
+		$('.nav').css('left','-1000px')
+	});
 });
