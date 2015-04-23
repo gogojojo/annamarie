@@ -7,4 +7,12 @@ $(function(){
 		$('.menu').css('left','0');
 		$('.nav').css('left','-1000px')
 	});
+	$('.applynow').click(function(){
+		$('.applyforms').css(
+      "top", "10px"
+    );
+    $('.contact').css(
+      "top", "10px"
+    );
+	})
 });
