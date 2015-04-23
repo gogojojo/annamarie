@@ -8,8 +8,10 @@ $(function(){
 		$('.nav').css('left','-1000px')
 	});
 	$('.applynow').click(function(){
-		$('.applyforms').css(
-      "top", "10px"
+		$('.applyforms').css({
+      "top": "10px",
+      "opacity": "1"
+		}
     );
     $('.contact').css(
       "top", "10px"

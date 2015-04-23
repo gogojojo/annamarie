@@ -1,5 +1,8 @@
 .navigation {
-  background-color: rgb(240, 248, 255);
+  background-color: azure;
+  color: black;
+  font-family: 'Vollkorn', serif;
+  font-weight: 700;
   width: 100vw;
   height: 8vh;
   position: fixed;
@@ -19,10 +22,22 @@
   }
 }
 .title {
-  margin: 8vh 0px 0px;
-  width: 100%;
-  background-color: rgb(127, 255, 212);
-  height: 20vh;
+  margin: 8vh 10% 0 10%;
+  font-family: 'Vollkorn', serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  width: 80%;
+  height: 16vh;
+  h1 {
+    font-size: 40px;
+    margin: 0;
+    margin-top: 100px;
+  }
+  h2 {
+    margin: 0;
+    font-weight: 400;
+  }
 }
 .content {
   background-color: rgb(222, 184, 135);
@@ -32,43 +47,84 @@
 .description {
   width: 50%;
   height: 600px;
-  background-color: rgb(245, 245, 220);
   display: inline-block;
   float: left;
+  h1 { 
+    font-family: 'Vollkorn', serif;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  p {
+    font-size: 15px;
+  }
+
+
 }
 .applynow {
   width: 30%;
-  height: 100px;
+  height: 70px;
   float: right;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 2px;
   background-color: blue;
   box-shadow: 0 5px 0 0 dodgerblue;
   margin: 0 10%;
-  line-height: 100px;
+  line-height: 70px;
   vertical-align: middle;
   text-align: center;
+  font-family: 'Vollkorn', serif;
+  font-weight: 700;
 }
 .applyforms {
   margin-top: 50px;
+  margin-bottom: 50px;
   width: 30%;
   height: 100%;
   position: relative;
-  top: -100px;
+  top: -200px;
   z-index: -1;
   float: right;
   background-color: white;
   margin: 0 10%;
   transition: all 2s;
+  font-size: 15px;
+  opacity: 0;
+  input {
+    width: 90%;
+    height: 20px;
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  a {
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    background-color: blue;
+    box-shadow: 0 5px 0 0 dodgerblue;
+    padding: 2px 6px;
+    color: white;
+  }
 }
 .contact {
   width: 30%;
-  position: relative;
-  top: -100px;
-  height: 100px;
+  height: 100%;
   float: right;
-  background-color: rgb(30, 144, 255);
-  margin: 5vh 10%;
-  line-height: 100px;
-  vertical-align: middle;
-  text-align: center;
+  margin: 2vh 10% 5vh 10%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  text-align: left;
   transition: all 2s;
+
+  h2 {
+    margin:10px 0 0 20px;
+    font-family: 'Vollkorn', serif;
+    font-weight: 700;
+  }
+  h3 {
+    margin-left: 20px;
+    margin-top: 0;
+    color: red;
+  }
 }
